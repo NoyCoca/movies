@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: fantasy;
+    margin: 0 0 0 0;
+    height:50vh;
+    color: aliceblue;
+    background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg");
+}
+#printMovies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movieCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+} 
+.movieCard img{
+    margin-bottom: 20px;
+    width: 50%;
+    height:50%
+}
+#logImg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a:link, a:visited {
+    background-color: #105c27;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(6, 83, 47);
+  }
+  label{
+      font-size: 35px;
+  }
+  input{
+    height: 25px;
+    border-radius: 10px;
+  }
