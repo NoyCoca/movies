@@ -15,18 +15,23 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-items: center;
 }
 .movieCard{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     flex-direction: column;
     width: 25%;
+    margin-left: 50px;
 } 
 .movieCard img{
     margin-bottom: 20px;
     width: 50%;
-    height:50%
+    height:50%;
+}
+.movieCard h1, p {
+  width:fit-content
 }
 #logImg{
     display: block;
@@ -53,3 +58,16 @@ a:link, a:visited {
     height: 25px;
     border-radius: 10px;
   }
+  #noMatch{
+    text-align: center;
+    font-size: 50px;
+  }
+
+  @media (min-width:0px )and  (max-width:600px ){
+    .movieCard{
+      display: flex;
+   width: 100%;
+      justify-content: center;
+      flex-direction: column;
+    }
+}
