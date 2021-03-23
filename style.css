@@ -26,9 +26,8 @@ h1{
 } 
 .movieCard img{
     margin-bottom: 20px;
-    width: 50%;
-    height:50%;
-}
+  
+} 
 .movieCard h1, p {
   width:fit-content
 }
