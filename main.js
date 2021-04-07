@@ -19,12 +19,12 @@ async function movie() {
             <img src=${movie.show.image.medium}>
             <p> <a href=${movie.show.url} target="_blank">movie website</a></p></div>`
 
-            noMatch.innerHTML = " "
+            noMatch.innerHTML = ""
         });
     }
     catch (rej) {
         noMatch.innerHTML = `<div>No match </div>`
-        printMovies.innerHTML = " "
+        printMovies.innerHTML = ""
     }
     finally {
         logImg.src = ""
