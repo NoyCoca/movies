@@ -11,7 +11,7 @@ h1{
     color: aliceblue;
     background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg");
 }
-#printMovies{
+#main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,13 +45,21 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
   }
+  .btn, .btn-default{
+    background-color: #105c27;
+    color: white;
+  }
+  .btn:hover, .btn-default:hover{
+    background-color: rgb(6, 83, 47);
+
+  }
   
   a:hover, a:active {
     background-color: rgb(6, 83, 47);
   }
-  label{
+  /* label{
       font-size: 35px;
-  }
+  } */
   input{
     height: 25px;
     border-radius: 10px;
